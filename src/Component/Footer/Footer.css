@@ -1,0 +1,14 @@
+.footer{
+    background-color: rgb(94, 87, 82);
+    width: 100%;
+    height: auto;
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+    
+}
+
+.fa-brands{
+    margin: 25px;
+    font-size: 50px;
+}
