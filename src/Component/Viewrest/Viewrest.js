@@ -37,24 +37,7 @@ function Viewrest() {
 
 
   return (
-    // <div>
-    //   { viewrest? (
-        
-    //     <div className='row'>
-    //       <div className='col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 '>
-    //         <img src={`${viewrest.photograph}`} fluid/>
-    //       </div>
-    //       <div className='col md-8'>
-
-    //       </div>
-
-    //     </div>
-        
-    //   ):''}
-    // </div>
-
-
-
+   
     <div className='details'>
       {
         viewrest? (
@@ -70,10 +53,8 @@ function Viewrest() {
       <ListGroup.Item> Cuisine type: {viewrest.cuisine_type}</ListGroup.Item>
       <ListGroup.Item> Neighbourhood: {viewrest.neighborhood}</ListGroup.Item>
       <ListGroup.Item> Address: {viewrest.address}</ListGroup.Item>
-      {/* <ListGroup.Item> Latitude and Longitude: {viewrest.latlng}</ListGroup.Item> */}
 
     </ListGroup>
-
 
         <Resttop op={viewrest.operating_hours}/>
 
