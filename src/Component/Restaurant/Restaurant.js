@@ -1,17 +1,12 @@
 import React, { useEffect, useState } from 'react'
 import './Restaurants.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
-// import { Col,Row } from 'react-bootstrap'
 
 import { Card, Button } from 'react-bootstrap'
-// import Header from '../Header/Header'
-// import Footer from '../Footer/Footer'
 import { Link } from 'react-router-dom'
 
 
 function Restaurant() {
-
-   
 
     const [data, setData] = useState([])
 
@@ -27,9 +22,7 @@ function Restaurant() {
     }, [])
     return (
 
-        <>
-         {/* <Header/> */}
-    
+        <>    
             <div className='container-fluid main-div mx-2'>
                 <div className='row mt-5 mx-2'>
                     <div className='row'>
@@ -41,7 +34,7 @@ function Restaurant() {
 
                                     <>
                                     
-                                        <div className='  col-md-4 col-lg-3  mb-4'>
+                                        <div className='col-md-4 col-lg-3 mb-4'>
 
                                             <Link to={`/view/${item.id}`}>
                                             <Card className='cardBody h-100'  >
@@ -54,7 +47,7 @@ function Restaurant() {
                                                     <Button variant="primary">Go somewhere</Button>
                                                 </Card.Body>
                                             </Card>
-
+                                            
                                             </Link>
 
                                         </div>
@@ -68,7 +61,6 @@ function Restaurant() {
                     </div>
                 </div>
             </div>
-            {/* <Footer/> */}
         </>
     )
     

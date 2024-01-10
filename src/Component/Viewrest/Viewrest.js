@@ -32,7 +32,7 @@ function Viewrest() {
     },[])
 
 
-    const viewrest = rest.find((item)=>item.id ===parseInt(params.id))
+    const viewrest = rest.find((item)=>item.id === parseInt(params.id))
     console.log(viewrest)
 
 

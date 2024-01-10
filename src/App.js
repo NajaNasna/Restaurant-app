@@ -9,11 +9,6 @@ import Footer from './Component/Footer/Footer';
 function App() {
   return (
     <div className="App">
-{/*       
-    <Header/>
-    <Restaurant/>
-    <Footer/> */}
-  
 
     <Header/>
     <Routes>
